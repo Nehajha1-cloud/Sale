@@ -11,8 +11,8 @@ import thumb7 from "./Assets/coat7.jpg";
 
 import mainImage from "./Assets/coat.jpg";
 
-import sizeImg1 from "./Assets/coat.jpg";
-import sizeImg2 from "./Assets/coat1.jpg";
+import sizeImg1 from "./Assets/CartCoat.jpg";
+import sizeImg2 from "./Assets/coat4.jpg";
 
 const SalePage = () => {
   const thumbnails = [thumb1, thumb2, thumb3, thumb4, thumb5, thumb6, thumb7];
@@ -22,7 +22,9 @@ const SalePage = () => {
   return (
     <div className="sale-container">
       <div className="top-banner">
-        <div className="timer">02D <span>02 hrs : 50 min sec</span></div>
+        <div className="timer">
+          <strong>02D</strong> <span><strong>02</strong> hrs : <strong>50</strong> min sec</span>
+        </div>
         <div className="promo-text">Up to 50% Off: Unbeatable Sale</div>
         <div className="shop-now">SHOP NOW</div>
       </div>
