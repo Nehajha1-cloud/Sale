@@ -22,9 +22,15 @@ const SalePage = () => {
   return (
     <div className="sale-container">
       <div className="top-banner">
-        <div className="timer">
-          <strong>02D</strong> <span><strong>02</strong> hrs : <strong>50</strong> min sec</span>
-        </div>
+<div className="timer">
+  <strong className="time">02D</strong>
+  <span>
+    <strong>02</strong> <span className="time-label">hrs</span> :
+    <strong>50</strong> <span className="time-label">min</span>
+    <span className="sec-label"> sec</span>
+  </span>
+</div>
+
         <div className="promo-text">Up to 50% Off: Unbeatable Sale</div>
         <div className="shop-now">SHOP NOW</div>
       </div>
