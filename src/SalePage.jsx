@@ -12,7 +12,7 @@ import thumb7 from "./Assets/coat7.jpg";
 import mainImage from "./Assets/coat.jpg";
 
 import sizeImg1 from "./Assets/CartCoat.jpg";
-import sizeImg2 from "./Assets/coat4.jpg";
+import sizeImg2 from "./Assets/CartCoat.jpg";
 
 const SalePage = () => {
   const thumbnails = [thumb1, thumb2, thumb3, thumb4, thumb5, thumb6, thumb7];
