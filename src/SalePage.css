@@ -278,19 +278,26 @@ body, html {
   }
 
   .you-may-also-like {
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     gap: 8px;
   }
+  .arrows{
+    margin-top: 10px;
+  }
 
-  .you-may-images {
+.you-may-images {
+    display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    gap: 12px;
+    padding: 0 16px;
   }
 
   .suggested-img {
-    width: 45vw;
+    width: calc(50% - 12px);
     height: auto;
+    max-width: 100%;
   }
 
   .main-header {
