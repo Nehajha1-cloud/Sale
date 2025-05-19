@@ -5,11 +5,11 @@ import thumb1 from "./Assets/coat5.jpg";
 import thumb2 from "./Assets/coat1.jpg";
 import thumb3 from "./Assets/coat3.jpg";
 import thumb4 from "./Assets/coat4.jpg";
-import thumb5 from "./Assets/coat5.jpg";
+import thumb5 from "./Assets/coat.jpg";
 import thumb6 from "./Assets/coat6.jpg";
 import thumb7 from "./Assets/coat7.jpg";
 
-import mainImage from "./Assets/coat.jpg";
+import mainImage from "./Assets/coat5.jpg";
 
 import sizeImg1 from "./Assets/CartCoat.jpg";
 import sizeImg2 from "./Assets/CartCoat.jpg";
